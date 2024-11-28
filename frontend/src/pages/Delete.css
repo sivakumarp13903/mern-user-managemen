@@ -1,0 +1,38 @@
+.delete-container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    background-color: #f9f9f9;
+  }
+  
+  .delete-container h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  .delete-container input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .delete-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #d9534f; /* Bootstrap Danger Color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .delete-container button:hover {
+    background-color: #c9302c; /* Darker shade for hover effect */
+  }
+  

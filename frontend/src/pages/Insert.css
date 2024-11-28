@@ -1,0 +1,52 @@
+.insert-container {
+    max-width: 400px; /* Set a maximum width for the container */
+    margin: 20px auto; /* Center the container horizontally */
+    padding: 20px; /* Add padding */
+    border: 1px solid #ccc; /* Add a border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #ffffff; /* White background for the form */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  .insert-container h2 {
+    text-align: center; /* Center the heading */
+    color: #333; /* Dark color for the heading */
+  }
+  
+  .insert-container form {
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Stack items vertically */
+  }
+  
+  .insert-container input {
+    margin-bottom: 15px; /* Space between inputs */
+    padding: 10px; /* Padding inside inputs */
+    border: 1px solid #ccc; /* Border for the input fields */
+    border-radius: 4px; /* Rounded corners for input fields */
+    font-size: 16px; /* Font size for input text */
+  }
+  
+  .insert-container input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .insert-container button {
+    padding: 10px; /* Padding inside the button */
+    background-color: #007bff; /* Blue background for the button */
+    color: white; /* White text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners for button */
+    cursor: pointer; /* Change cursor to pointer */
+    font-size: 16px; /* Font size for button text */
+  }
+  
+  .insert-container button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+  }
+  
+  .insert-container button:disabled {
+    background-color: #ccc; /* Grey background for disabled button */
+    cursor: not-allowed; /* Change cursor to not-allowed */
+  }
+  
